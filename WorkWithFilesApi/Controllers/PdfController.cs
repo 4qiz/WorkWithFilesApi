@@ -23,7 +23,7 @@ namespace WorkWithFilesApi.Controllers
             var directory = Directory.GetCurrentDirectory();
             var path = Path.Combine(directory, "Files", "PdfDocuments", "pdf.pdf");
 
-            var html = PdfGenerator.GetHtmlGames(GamesDb.GetAll());
+            var html = HtmlGenerator.GetHtmlGames(GamesDb.GetAll());
 
             var globalSettings = new GlobalSettings
             {

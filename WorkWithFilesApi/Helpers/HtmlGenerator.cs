@@ -3,7 +3,7 @@ using WorkWithFilesApi.Models;
 
 namespace WorkWithFilesApi.Helpers
 {
-    public static class PdfGenerator
+    public static class HtmlGenerator
     {
         public static string GetHtmlGames(List<Game> games)
         {

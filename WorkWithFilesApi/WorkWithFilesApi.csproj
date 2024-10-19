@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Files\Uploads\" />
-    <Folder Include="Files\PdfDocuments\" />
   </ItemGroup>
 
 </Project>
