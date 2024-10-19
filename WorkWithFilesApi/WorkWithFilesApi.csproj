@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Files\Uploads\" />
-    <Folder Include="Services\" />
+    <Folder Include="Files\PdfDocuments\" />
   </ItemGroup>
 
 </Project>
